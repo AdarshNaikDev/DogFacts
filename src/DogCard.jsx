@@ -12,7 +12,7 @@ function DogCard( ) {
     // }, [])
     const baseURL = "https://dogapi.dog/api/facts";
     const ImgURL = "https://dog.ceo/api/breeds/image/random"
-    const [fact, setFact] = useState(" Dogs are animals ")
+    const [fact, setFact] = useState("The average number of puppies in a litter is four to six.")
     const[loader,setLoader] = useState(false)
 
     const [dogimg, setDogImg] = useState("https:\/\/images.dog.ceo\/breeds\/pekinese\/n02086079_7302.jpg")
