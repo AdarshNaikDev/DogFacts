@@ -11,7 +11,7 @@ function App() {
     <>
     <div className='title'>
     <h1>
-      Get to know more facts about <div id="dog-title">Dog!!</div>
+      Get to know more facts about <div id="dog-title">Dogs!!</div>
     </h1>
     </div>
     {/* {loader? <Loader/>: <DogCard loader={loader} setLoader={setLoader} />} */}
